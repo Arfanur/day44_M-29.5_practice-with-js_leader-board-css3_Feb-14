@@ -27,7 +27,7 @@
                                       Top players and top blogs 
             ------------------------------------------------------------->
         <section class="container">
-            <div class="top-players">
+            <div id="top-players" class="top-players">
                 <h2 class="section-title">Top Player</h2>
                 <div class="players">
                     <!-- .player*6>img[src="images/players/player-$.png"]+h3{Top Player-$} -->
@@ -208,7 +208,26 @@
                 </div>
             </div>
         </section>
+        <section>
+            <ul id="list-items">
+                <li>First List</li>
+                <li>Second List</li>
+                <li>Third List</li>
+            </ul>
+            <button id="add-list-btn">Add List</button>
+        </section>
+        <br>
+        <section>
+            <input id="input-number" type="number" min="0" value="0">
+            <button id="increase-btn" onclick="increaseValue()">Increase</button>
+        </section>
+
     </main>
+
+    <script>
+
+    </script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
